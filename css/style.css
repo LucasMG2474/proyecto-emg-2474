@@ -1,0 +1,45 @@
+.encabezado{
+  text-align: center;
+  font-size: 20px;
+  font-style: italic;
+}
+.textCards{
+  background-color: whitesmoke;
+  padding: 0.6rem;
+}
+.cursos_container{
+  background-color: #2c2c2c;
+}
+.card img:hover{
+  border: 5px solid white;
+}
+.fotosVdos_area{
+  padding: 15px;
+  margin-bottom: 20px;
+  height: auto;
+}
+
+.column img {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.column img:hover {
+  opacity: 1;
+}
+.column{
+  border: solid 1px black;
+}
+.footerArea{
+  height: 30px;
+  width: 100%;
+  display: block;
+  color: white;
+  font-style: bold;
+  font-size: 16px;
+  border-top: 12px solid bisque;
+  background: linear-gradient(to bottom, #000000, #363839);
+  padding: 30px;
+  text-align: center;
+  margin-top: 80px;
+}
