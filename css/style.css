@@ -6,11 +6,6 @@
   position: relative;
 }
 
-
-.mySlides {
-  display: none;
-}
-
 .caption-container {
   text-align: center;
   background-color: #222;
@@ -18,36 +13,39 @@
   color: white;
 }
 
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-
-.column {
-  float: left;
-  width: 16.66%;
-}
-
-
-.demo {
-  opacity: 0.6;
-}
-
-.active,
-.demo:hover {
-  opacity: 1;
-}
 .encabezado{
   text-align: center;
   font-size: 20px;
   font-style: italic;
 }
+
+#parrafoQuinessomos{
+  padding: 10px;
+  text-align: justify;
+  font-size: 18px;
+  font-style: italic;
+}
+
 .textCards{
-  background-color: whitesmoke;
+  background-color: #00bbff;
   padding: 0.6rem;
 }
+
+.textCards li{
+  color: #ffff;
+  text-align: justify;
+  font-size: 14px;
+  padding-bottom: 10px;
+  padding-right: 10Px;
+}
+
+.textCards p{
+  color: #ffff;
+  text-align: justify;
+  padding-bottom: 10px;
+  padding-right: 10Px;
+}
+
 .cursos_container{
   background-color: #2c2c2c;
 }
@@ -60,6 +58,10 @@
   height: auto;
 }
 
+.fondoForm{
+  padding: 10px;
+}  
+  
 .column img {
   opacity: 0.8;
   cursor: pointer;
